@@ -1,0 +1,71 @@
+
+:root {
+    --mainColor: #fff2f2;
+    --mainBg: #8ea7e9;
+    --color-light: #e5e0ff;
+    --fontColor: #000e17;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--mainColor);
+    font-family:Arial, Helvetica, sans-serif;
+    color: var(--fontColor);
+    line-height: 1.7;
+}
+
+/* top content */
+
+.phone-num {
+    font-size: 16px;
+    padding-left: 50px;
+    color: var(--color-light);
+}
+
+.email {
+    font-size: 16px;
+    padding-left: 30px;
+    color: var(--color-light);
+}
+
+.content {
+    padding: 15px;
+}
+
+#top-content {
+    background-color: gray;
+    height: 2.5em;
+    margin-bottom: 10px;
+} 
+
+/* top content end */
+
+/* nav container */
+.nav_logo img {
+    width: 400px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links {
+    display: flex;
+    gap: 2rem;
+    margin-right: 20px;
+}
+/* nav container end */
+
+
